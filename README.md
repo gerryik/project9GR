@@ -1,3 +1,3 @@
 # project9GR
 group repo.
-COntains Parallel Jenkins build jobs
+Contains Parallel Jenkins build jobs with Jenkinsfile
