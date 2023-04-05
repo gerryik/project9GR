@@ -10,12 +10,12 @@ pipeline{
         }
         stage('Pretei Lemo'){
           steps{
-            echo "actions2"
+            echo "TODO"
           }
         }
     stage('Odile Domingo'){
     	steps{
-    		echo "echo codebuild stage"
+    		echo "TODO"
     	}
      }
     }
