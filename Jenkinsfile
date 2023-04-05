@@ -5,19 +5,19 @@ pipeline{
       parallel{     
         stage('Gerald Agbonye'){
           steps{
-
+            echo "actions2"
           }
         }
         stage('Pretei Lemo'){
           steps{
-            sh 'actions2'
+            echo "actions2"
           }
         }
       }
     }
     stage('Odile Domingo'){
     	steps{
-    		sh 'echo codebuild stage'
+    		secho "echo codebuild stage"
     	}
     }
   }
