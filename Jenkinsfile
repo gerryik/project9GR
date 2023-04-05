@@ -13,12 +13,12 @@ pipeline{
             echo "actions2"
           }
         }
-      }
-    }
     stage('Odile Domingo'){
     	steps{
     		echo "echo codebuild stage"
     	}
+     }
     }
+   }
   }
 }
