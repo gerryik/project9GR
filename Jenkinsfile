@@ -2,8 +2,7 @@ pipeline{
   agent any
   stages{
     stage('project9'){
-      parallel{
-      
+      parallel{     
         stage('Gerald Agbonye'){
           steps{
 
