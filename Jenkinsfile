@@ -5,7 +5,7 @@ pipeline{
       parallel{     
         stage('Gerald Agbonye'){
           steps{
-            sh '/var/lib/jenkins/project9grp5q1scrpit.sh'
+            sh '/var/lib/jenkins/script/project9grp5q1scrpit.sh'
           }
         }
         stage('Pretei Lemo'){
