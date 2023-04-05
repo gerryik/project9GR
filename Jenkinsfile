@@ -5,7 +5,7 @@ pipeline{
       parallel{     
         stage('Gerald Agbonye'){
           steps{
-            echo "actions2"
+            sh '/var/lib/jenkins/workspace'
           }
         }
         stage('Pretei Lemo'){
