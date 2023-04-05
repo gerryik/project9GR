@@ -17,7 +17,7 @@ pipeline{
     }
     stage('Odile Domingo'){
     	steps{
-    		secho "echo codebuild stage"
+    		echo "echo codebuild stage"
     	}
     }
   }
