@@ -13,12 +13,12 @@ pipeline{
             echo "TODO"
           }
         }
-    stage('Odile Domingo'){
-    	steps{
-    		echo "TODO"
-    	}
-     }
+        stage('Odile Domingo'){
+    	    steps{
+    		    echo "sudo systemctl status jenkins"
+    	    }
+        }
+      }
     }
-   }
   }
 }
