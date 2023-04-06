@@ -10,7 +10,7 @@ pipeline{
         }
         stage('Pretei Lemo'){
           steps{
-            sh '/var/lib/jenkins/script/lemorscript.sh‘
+            sh '/var/lib/jenkins/script/lemorscript.sh'
           }
         }
    stage('Pere'){
