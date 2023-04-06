@@ -10,7 +10,7 @@ pipeline{
         }
         stage('Pretei Lemo'){
           steps{
-            sh '/var/lib/jenkins/script/lemorscript.sh ‘
+            sh '/var/lib/jenkins/script/lemorscript.sh‘
           }
         }
    stage('Pere'){
@@ -20,7 +20,7 @@ pipeline{
     }
     stage('Odile Domingo'){
        steps{
-           sh '/var/lib/jenkins/script/odilescript.sh
+           sh '/var/lib/jenkins/script/odilescript.sh'
          }
      }
         stage("Henry Forson") {
