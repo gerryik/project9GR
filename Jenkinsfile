@@ -10,15 +10,26 @@ pipeline{
         }
         stage('Pretei Lemo'){
           steps{
-            echo "TODO"
+            sh  ‘/var/lib/jenkins/script/lemorscript.sh ‘
           }
         }
-        stage('Odile Domingo'){
-    	    steps{
-    		    echo "sudo systemctl status jenkins"
-    	    }
+   stage('Pere'){
+       steps{
+            echo "TODO"
         }
-      }
     }
-  }
+    stage('Odile Domingo'){
+       steps{
+           sh  ‘/var/lib/jenkins/script/odilescript.sh
+         }
+     }
+        stage("Henry Forson") {
+           steps {
+               echo "TODO"
+            }
+          }
+        }
+     }
+   }
 }
+
